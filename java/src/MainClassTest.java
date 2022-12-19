@@ -1,10 +1,10 @@
 public class MainClassTest {
-    public int multiply(int number) {
-        return number * 1;
+    public void testGetLocalNumber() {
+        int a = 14;
+        if (a == 10) {
+            System.out.println("true");
+        } else {
+            System.out.println("false");
+        }
     }
-
-    public int multiply(int number, int multiply) {
-        return number * multiply;
-    }
-
 }
